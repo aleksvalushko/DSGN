@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DSGN</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__navigation">
+            <div class="header__logo">DSGN</div>
+            <div class="header__social-networks">
+                <div class="header__facebook">
+                    <a href="#"><img src="images/icon-facebook.png" alt="facebook"></a>
+                </div>
+                <div class="header__instagram">
+                    <a href="#"><img src="images/icon-instagram.png" alt="instagram"></a>
+                </div>
+                <div class="header__twitter">
+                    <a href="#"><img src="images/icon-twitter.png" alt="twitter"></a>
+                </div>
+                <div class="header__linkedin">
+                    <a href="#"><img src="images/icon-linkedin.png" alt="linkedin"></a>
+                </div>
+            </div>
+            <div class="header__menu-icon list" id="toggle" onclick="toggle()">
+                <ul class="header__list header__list-m" id="list">
+                    <li><a href="#progress-anchor">Progress</a></li>
+                    <li><a href="#team-anchor">Team</a></li>
+                    <li><a href="#portfolio-anchor">Portfolio</a></li>
+                    <li><a href="#brands-anchor">Brands</a></li>
+                    <li><a href="#about-anchor">About us</a></li>
+                </ul>
+            </div>
+            <div class="header__menu">MENU</div>
+
+        </nav>
+        <div class="header__main">
+            <div class="header__headline-1">
+                Need our help?
+            </div>
+            <div class="header__headline-2">
+                TOP DESIGNERS
+            </div>
+            <div class="header__button">
+                <button class="header__btn">
+                    CHECK US!
+                </button>
+            </div>
+            <a href="#bottom" class="header__anchor"></a>
+        </div>
+    </header>
+    <div class="progress" id="progress"><a name="progress-anchor"></a>
+        <div class="progress__projects">
+            <div class="progress__number-1">50</div>
+            <div class="progress__caption-1">BIG PROJECTS</div>
+            <svg viewBox='0 0 100 100' class="progress__first">
+                <circle cx='50' cy='50' r='45' class='progress__gray'/>
+                <circle cx='50' cy='50' r='45' class='progress__red'/>
+            </svg>
+        </div>
+        <div class="progress__text progress__text-m1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, qui quod!</div>
+        <div class="progress__clients">
+            <div class="progress__number-2">35</div>
+            <div class="progress__caption-2">CLIENTS</div>
+            <svg viewBox='0 0 100 100' class="progress__second">
+                <circle cx='50' cy='50' r='45' class='progress__gray'/>
+                <circle cx='50' cy='50' r='45' class='progress__green'/>
+            </svg>
+        </div>
+        <div class="progress__text progress__text-m2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, qui quod!</div>
+        <div class="progress__months">
+            <div class="progress__number-3">80</div>
+            <div class="progress__caption-3">MONTHS</div>
+            <svg viewBox='0 0 100 100' class="progress__third">
+                <circle cx='50' cy='50' r='45' class='progress__gray'/>
+                <circle cx='50' cy='50' r='45' class='progress__black'/>
+            </svg>
+        </div>
+        <div class="progress__text progress__text-m3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, qui quod!</div>
+    </div>
+    <div class="team"><a name="team-anchor"></a>
+        <div class="team__bg">
+            <div class="team__table">
+                <div class="team__headline-1-1">Meet us!</div>
+                <div class="team__headline-2-1">OUR TEAM</div>
+            </div>
+        </div>
+        <div class="team__main">
+            <div class="team__photo-1">
+                <div class="team__photo-table-1">
+                    <div class="team__triangle-1 team__triangle-m"></div>
+                </div>
+            </div>
+            <div class="team__about-1">
+                <div class="team__headline-1-2">ADRIANNA</div>
+                <div class="team__headline-2-2">Senior Graphic Designer</div>
+                <div class="team__headline-3-2">She is the graphic designer with 3 years of professional experience.</div>
+            </div>
+            <div class="team__about-2">
+                <div class="team__headline-1-2">OLIVIA</div>
+                <div class="team__headline-2-2">Art Director</div>
+                <div class="team__headline-3-2">She is the art director with 8 years of professional experience.</div>
+            </div>
+            <div class="team__photo-2">
+                <div class="team__photo-table-2">
+                    <div class="team__triangle-2 team__triangle-m"></div>
+                </div>
+            </div>
+            <div class="team__photo-3">
+                <div class="team__photo-table-1">
+                    <div class="team__triangle-1 team__triangle-m"></div>
+                </div>
+            </div>
+            <div class="team__about-3">
+                <div class="team__headline-1-2">THOMAS</div>
+                <div class="team__headline-2-2">Software Engeneer</div>
+                <div class="team__headline-3-2">He is the software engeneer with 5 years of professional experience.</div>
+            </div>
+            <div class="team__about-4">
+                <div class="team__headline-1-2">TAYLOR</div>
+                <div class="team__headline-2-2">CEO</div>
+                <div class="team__headline-3-2">She is the boss in here.</div>
+            </div>
+            <div class="team__photo-4">
+                <div class="team__photo-table-2">
+                    <div class="team__triangle-2 team__triangle-m"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio"><a name="portfolio-anchor"></a>
+        <div class="portfolio__bg">
+            <div class="portfolio__table">
+                <div class="portfolio__headline-1">Check out our projects!</div>
+                <div class="portfolio__headline-2">PORTFOLIO</div>
+            </div>
+        </div>
+        <div class="portfolio__images">
+            <div class="portfolio__image-1">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-2">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-3">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-4">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-5">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-6">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-7">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-8">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-9">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-10">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-11">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-12">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-13">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-14">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-15">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-16">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-17">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-18">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-19">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-20">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+            <div class="portfolio__image-21">
+                <div class="portfolio__caption">
+                    <img src="images/icon-eye.png" alt="eye">
+                    <p class="portfolio__text">Our new project!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands"><a name="brands-anchor"></a>
+        <div class="brands__bg">
+            <div class="brands__table">
+                <div class="brands__headline-1">We working for</div>
+                <div class="brands__headline-2">BRANDS</div>
+            </div>
+        </div>
+        <div class="brands__images">
+            <div class="brands__image"><img src="images/icon-brand-1.png" alt="apple"></div>
+            <div class="brands__image"><img src="images/icon-brand-2.png" alt="microsoft"></div>
+            <div class="brands__image"><img src="images/icon-brand-3.png" alt="volkswagen"></div>
+            <div class="brands__image"><img src="images/icon-brand-4.png" alt="icon-4"></div>
+            <div class="brands__image"><img src="images/icon-brand-5.png" alt="playstation"></div>
+            <div class="brands__image"><img src="images/icon-brand-6.png" alt="hp"></div>
+            <div class="brands__image"><img src="images/icon-brand-7.png" alt="LG"></div>
+            <div class="brands__image"><img src="images/icon-brand-8.png" alt="android"></div>
+            <div class="brands__image"><img src="images/icon-brand-9.png" alt="shell"></div>
+            <div class="brands__image"><img src="images/icon-brand-10.png" alt="Dell"></div>
+            <div class="brands__image"><img src="images/icon-brand-11.png" alt="EA"></div>
+            <div class="brands__image"><img src="images/icon-brand-12.png" alt="Intel"></div>
+            <div class="brands__image"><img src="images/icon-brand-13.png" alt="HTML5"></div>
+            <div class="brands__image"><img src="images/icon-brand-14.png" alt="icon14"></div>
+            <div class="brands__image"><img src="images/icon-brand-15.png" alt="Nike"></div>
+            <div class="brands__image"><img src="images/icon-brand-16.png" alt="icon16"></div>
+            <div class="brands__image"><img src="images/icon-brand-17.png" alt="KFC"></div>
+            <div class="brands__image"><img src="images/icon-brand-18.png" alt="Nivea"></div>
+            <div class="brands__image"><img src="images/icon-brand-19.png" alt="Half-life2"></div>
+            <div class="brands__image"><img src="images/icon-brand-20.png" alt="Instagram"></div>
+            <div class="brands__image"><img src="images/icon-brand-21.png" alt="CoolerMaster"></div>
+            <div class="brands__image"><img src="images/icon-brand-22.png" alt="icon22"></div>
+            <div class="brands__image"><img src="images/icon-brand-23.png" alt="icon23"></div>
+            <div class="brands__image"><img src="images/icon-brand-24.png" alt="Allegro"></div>
+            <div class="brands__image"><img src="images/icon-brand-25.png" alt="UPS"></div>
+            <div class="brands__image"><img src="images/icon-brand-26.png" alt="Wordpress"></div>
+            <div class="brands__image"><img src="images/icon-brand-27.png" alt="icon27"></div>
+            <div class="brands__image"><img src="images/icon-brand-28.png" alt="Mitsubishi"></div>
+        </div>
+    </div>
+    <footer class="footer"><a name="about-anchor"></a>
+        <div class="footer__team">
+            <div class="footer__headline">OUR TEAM</div>
+            <div class="footer__text">We are the best company in the entire world!</div>
+        </div>
+        <div class="footer__about">
+            <div class="footer__headline">ABOUT</div>
+            <div class="footer__text">We are the best company in the entire world!</div>
+        </div>
+        <div class="footer__contact">
+            <div class="footer__headline">CONTACT</div>
+            <div class="footer__text">free@template.com</div>
+            <div class="footer__text">www.freetemplate.com</div>
+            <div class="footer__text">tel. +48 123456 79</div>
+        </div>
+    </footer>
+    <div class="footer__author"><a name="bottom"></a>Copyright &copy; GSGN by Aleks Valushko!</div>
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+$header: linear-gradient(90deg, #fff 70%, #000 30%)
+$gray: #e6e4e4
+
+@mixin bg-headline
+  color: white
+  font-family: Quicksand
+  font-weight: 300
+  font-size: 1.3vw
+  overflow: hidden
+  position: relative
+  white-space: nowrap
+
+@mixin bg-headline-1
+  content: ''
+  display: inline-block
+  position: relative
+  top: -1px
+  width: 50%
+  height: 1px
+  vertical-align: middle
+  background: #b7b0ad
+
+@mixin circle
+  stroke-width: 2px
+  fill: transparent
+
+@mixin circle-size
+  width: 15vw
+  height: 15vw
+
+@mixin progress-number
+  position: relative
+  top: 10vw
+  font-family: Quicksand
+  font-weight: 700
+  font-size: 5vw
+
+@mixin progress-caption
+  position: relative
+  top: 10vw
+  font-family: Quicksand
+  font-weight: 400
+  font-size: 1.3vw
+  color: #454545
+
+@mixin team-photo
+  border-top: 2px solid #fff
+  border-bottom: 2px solid #fff
+  height: 16.75vw
+
+@mixin team-member
+  display: grid
+  grid-template-rows: 20% 20% 20% 20% 20%
+  border-top: 2px solid #000
+  border-bottom: 2px solid #000
+  text-align: center
+  padding: 5% 20%
+  height: 13vw
+
+@mixin team-headline-1
+  font-family: Quicksand
+  font-weight: 400
+  font-size: 3vw
+  color: #111111
+
+@mixin team-headline-2
+  display: inline-block
+  font-family: Quicksand
+  font-weight: 400
+  font-size: 1.2vw
+  color: #111111
+  border-bottom: 2px solid #f34739
+  padding-bottom: 3%
+
+@mixin team-headline-3
+  font-family: Quicksand
+  font-weight: 400
+  font-size: 1.2vw
+  color: #454545
+  padding: 0 10%
+
+@mixin triangle-left
+  position: relative
+  top: 7vw
+  left: 34.95vw
+  width: 0
+  height: 0
+  border-top: 2vw solid transparent
+  border-right: 1.8vw solid white
+  border-bottom: 2vw solid transparent
+
+@mixin triangle-right
+  position: relative
+  top: 7vw
+  right: 0.1vw
+  width: 0
+  height: 0
+  border-top: 2vw solid transparent
+  border-left: 1.8vw solid white
+  border-bottom: 2vw solid transparent
+
+@mixin triangle-bottom
+  position: relative
+  top: 0.01vw
+  left: 42vw
+  width: 0
+  height: 0
+  border-left: 4vw solid transparent
+  border-top: 4vw solid white
+  border-right: 4vw solid transparent
+
+@mixin portfolio-images
+  height: 14vw
+  text-align: center
+  background-size: cover
+  filter: grayscale(100%)
+  display: grid
+  grid-template-rows: 35% 45% 20%
+
+@mixin team-member-m
+  height: 43.5vw
+  margin: 0 3%
+  border-bottom: none
+  border-left: 2px solid #000
+  display: grid
+  grid-template-rows: 10% 20% 20% 10% 20% 20%
+  padding: 5% 8%
+
+@mixin team-photo-m
+  background-size: 120%
+  background-position: 50% 20%
+  height: 50vw
+
+@mixin photo-table-m
+  border-top: none
+  margin: 0 3%
+  height: 46vw

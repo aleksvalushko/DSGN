@@ -1,0 +1,68 @@
+.progress {
+  max-width: 100%;
+  display: grid;
+  grid-template: 50% 30%/25% 25% 25%;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  padding: 1% 7.619047619%; }
+  .progress__projects {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center; }
+  .progress__first {
+    width: 15vw;
+    height: 15vw; }
+    .progress__first circle {
+      stroke-width: 2px;
+      fill: transparent; }
+  .progress__gray {
+    stroke: #e6e4e4; }
+  .progress__red {
+    stroke: #f34739;
+    stroke-dasharray: 150, 150;
+    stroke-dashoffset: -50; }
+  .progress__number-1 {
+    position: relative;
+    top: 10vw;
+    color: #f34739;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 5vw; }
+  .progress__caption-1 {
+    position: relative;
+    top: 10vw;
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #454545; }
+  .progress__clients {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center; }
+  .progress__second {
+    width: 15vw;
+    height: 15vw; }
+    .progress__second circle {
+      stroke-width: 2px;
+      fill: transparent; }
+  .progress__green {
+    stroke: #009989;
+    stroke-dasharray: 100, 150;
+    stroke-dashoffset: -50; }
+  .progress__number-2 {
+    position: relative;
+    top: 10vw;
+    color: #009989;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 5vw; }
+  .progress__caption-2 {
+    position: relative;
+    top: 10vw;
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 1.3vw;
+    color: #454545; }
+
+/*# sourceMappingURL=progress.css.map */

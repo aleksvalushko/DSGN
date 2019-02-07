@@ -1,0 +1,262 @@
+@import "variables"
+
+@media screen and (max-width: 480px)
+  .header
+    &__navigation
+      background: #fff
+      display: grid
+      grid-template-columns: 17.5% 57.5% 15% 10%
+      grid-template-rows: 28% 10% 34% 10% 20%
+      height: 14vw
+      padding: 0 2%
+    &__list
+      display: none
+    &__list-m
+      display: grid
+      grid-template: repeat(3, 33%) / repeat(2, 50%)
+      position: absolute
+      right: 10vw
+      top: 0.1vw
+      width: 35vw
+      background: #fff
+      li
+        padding: 3%
+        a
+          text-decoration: none
+    &__logo
+      grid-column: 1/2
+      font-size: 4vw
+      border-radius: 25% 0% 25% 25% / 45% 0 45% 45%
+      padding-top: 10%
+    &__social-networks
+      grid-column: 2/3
+      display: none
+    &__menu-icon
+      grid-column: 4/5
+      background-image: url('../images/button-m.png')
+      background-position: 50% 50%
+    &__menu
+      grid-column: 3/4
+      display: none
+    &__main
+      grid-template-rows: 29% 7% 3.5% 12.5% 11% 9% 12% 7% 4%
+      justify-content: normal
+      padding: 0 2%
+      background-size: 230%
+      background-position: center
+      height: 85vw
+    &__headline-1
+      font-size: 6vw
+      letter-spacing: 2px
+    &__headline-2
+      text-align: center
+      font-size: 12vw
+    &__btn
+      font-size: 3vw
+      padding: 1% 6%
+    &__anchor
+      background-size: 4%
+  .progress
+    display: grid
+    grid-template-columns: 1% 98% 1%
+    grid-template-rows: 25% 8% 25% 8% 25% 8%
+    justify-content: center
+    height: 225vw
+    &__projects
+      grid-column: 2/3
+      grid-row: 1/2
+      padding-bottom: 5%
+    &__first
+      width: 50vw
+      height: 50vw
+    &__number-1
+      top: 30vw
+      font-size: 15vw
+    &__caption-1
+      font-size: 4vw
+      top: 33vw
+    &__text-m1
+      grid-column: 2/3
+      grid-row: 2/3
+      padding: 0 20% 3% 20%
+      font-size: 4vw
+    &__clients
+      grid-column: 2/3
+      grid-row: 3/4
+      padding-bottom: 5%
+    &__second
+      width: 50vw
+      height: 50vw
+    &__number-2
+      top: 30vw
+      font-size: 15vw
+    &__caption-2
+      font-size: 4vw
+      top: 33vw
+    &__text-m2
+      grid-column: 2/3
+      grid-row: 4/5
+      padding: 0 20% 3% 20%
+      font-size: 4vw
+    &__months
+      grid-column: 2/3
+      grid-row: 5/6
+      padding-bottom: 4%
+    &__third
+      width: 50vw
+      height: 50vw
+    &__number-3
+      top: 30vw
+      font-size: 15vw
+    &__caption-3
+      font-size: 4vw
+      top: 33vw
+    &__text-m3
+      grid-column: 2/3
+      grid-row: 6/7
+      padding: 0 20% 3% 20%
+      font-size: 4vw
+  .team
+    &__bg
+      background-size: 240%
+      height: 35vw
+      padding: 3%
+    &__table
+      padding: 11% 20%
+    &__headline-1-1
+      font-size: 3vw
+    &__headline-2-1
+      font-size: 10vw
+    &__main
+      grid-template-rows: repeat(8, 12.5%)
+      height: 430vw
+      padding: 3% 0
+    &__about-1
+      grid-column: 1/3
+      grid-row: 1/2
+      @include team-member-m
+    &__photo-1
+      grid-column: 1/3
+      grid-row: 2/3
+      @include team-photo-m
+    &__photo-table-1
+      border-right: 2px solid #fff
+      @include photo-table-m
+    &__about-2
+      grid-column: 1/3
+      grid-row: 3/4
+      @include team-member-m
+      border-right: 2px solid #000
+      margin-top: 3%
+    &__photo-2
+      grid-column: 1/3
+      grid-row: 4/5
+      @include team-photo-m
+    &__photo-table-2
+      border-left: 2px solid #fff
+      @include photo-table-m
+    &__about-3
+      grid-column: 1/3
+      grid-row: 5/6
+      @include team-member-m
+      margin-top: 3%
+      height: 40.4vw
+    &__photo-3
+      grid-column: 1/3
+      grid-row: 6/7
+      @include team-photo-m
+    &__photo-table-3
+      border-right: 2px solid #fff
+      @include photo-table-m
+    &__about-4
+      grid-column: 1/3
+      grid-row: 7/8
+      @include team-member-m
+      border-right: 2px solid #000
+      margin-top: 3%
+    &__photo-4
+      grid-column: 1/3
+      grid-row: 8/9
+      @include team-photo-m
+    &__photo-table-3
+      border-left: 2px solid #fff
+      @include photo-table-m
+    &__triangle-m
+      @include triangle-bottom
+    &__headline-1-2
+      grid-row: 2/3
+      font-size: 8vw
+    &__headline-2-2
+      font-size: 3.5vw
+      box-sizing: border-box
+    &__headline-3-2
+      grid-row: 5/6
+      font-size: 4vw
+      line-height: 4vw
+  .portfolio
+    &__bg
+      background-size: 100%
+      height: 35vw
+      padding: 3%
+    &__table
+      padding: 11% 5%
+    &__headline-1
+      font-size: 3vw
+    &__headline-2
+      font-size: 10vw
+    &__images
+      display: grid
+      grid-template-columns: repeat(3, 1fr)
+      grid-gap: 0
+      height: 240vw
+    &__image-1, &__image-2, &__image-3, &__image-4, &__image-5, &__image-6, &__image-7, &__image-8, &__image-9,
+    &__image-10, &__image-11, &__image-12, &__image-13, &__image-14, &__image-15, &__image-16, &__image-17,
+    &__image-18, &__image-19, &__image-20, &__image-21
+      max-width: 100%
+      height: 100%
+    &__caption
+      p
+        display: none
+  .brands
+    &__bg
+      background-size: 220%
+      height: 35vw
+      padding: 3%
+    &__table
+      margin-top: 1%
+      padding: 8.5% 5%
+    &__headline-1
+      font-size: 4vw
+    &__headline-2
+      font-size: 13vw
+    &__images
+      display: grid
+      grid-template: repeat(7, 1fr) / repeat(4, 25%)
+      grid-gap: 0
+      height: 140vw
+      justify-content: normal
+      margin: 0
+    &__image
+      width: 100%
+      height: 100%
+      img
+        max-width: 60%
+  .footer
+    display: grid
+    grid-template-rows: repeat(3, 33%)
+    height: 100vw
+    &__team
+      grid-column: 1/4
+      grid-row: 1/2
+    &__about
+      grid-column: 1/4
+      grid-row: 2/3
+    &__contact
+      grid-column: 1/4
+      grid-row: 3/4
+    &__headline
+      font-size: 5vw
+      padding-bottom: 5%
+      margin-bottom: 5%
+    &__text
+      font-size: 4vw

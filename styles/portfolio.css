@@ -1,0 +1,65 @@
+.portfolio {
+  max-width: 100%; }
+  .portfolio__bg {
+    background: url("../images/portfolio-bg.png");
+    height: 8vw;
+    padding: 5% 20%;
+    text-align: center; }
+  .portfolio__table {
+    border: 2px solid #f9fdfc;
+    padding: 5% 0; }
+  .portfolio__headline-1 {
+    color: white;
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 1.3vw;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap; }
+  .portfolio__headline-1:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #b7b0ad;
+    width: 4%;
+    left: -10px;
+    margin-left: -50%; }
+  .portfolio__headline-1:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #b7b0ad;
+    width: 4%;
+    left: 10px;
+    margin-right: -50%; }
+  .portfolio__headline-2 {
+    color: white;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 4vw; }
+  .portfolio__images {
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(7, 1fr);
+    grid-gap: 0; }
+  .portfolio__image-2, .portfolio__image-3, .portfolio__image-4, .portfolio__image-5, .portfolio__image-6, .portfolio__image-9, .portfolio__image-10, .portfolio__image-11, .portfolio__image-12, .portfolio__image-13, .portfolio__image-16, .portfolio__image-17, .portfolio__image-18, .portfolio__image-19, .portfolio__image-20 {
+    max-width: 100%;
+    max-height: 100%; }
+    .portfolio__image-2 img, .portfolio__image-3 img, .portfolio__image-4 img, .portfolio__image-5 img, .portfolio__image-6 img, .portfolio__image-9 img, .portfolio__image-10 img, .portfolio__image-11 img, .portfolio__image-12 img, .portfolio__image-13 img, .portfolio__image-16 img, .portfolio__image-17 img, .portfolio__image-18 img, .portfolio__image-19 img, .portfolio__image-20 img {
+      width: 101%;
+      height: 100%; }
+  .portfolio__image-1, .portfolio__image-7, .portfolio__image-8, .portfolio__image-14, .portfolio__image-15, .portfolio__image-21 {
+    max-width: 100%;
+    max-height: 100%; }
+    .portfolio__image-1 img, .portfolio__image-7 img, .portfolio__image-8 img, .portfolio__image-14 img, .portfolio__image-15 img, .portfolio__image-21 img {
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=portfolio.css.map */

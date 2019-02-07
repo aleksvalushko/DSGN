@@ -1,0 +1,73 @@
+@import "variables"
+
+.progress
+  max-width: 100%
+  display: grid
+  grid-template: 60% 20% / repeat(3, 25%)
+  justify-content: space-around
+  justify-items: center
+  align-items: end
+  padding: 3.5% 7.619047619047619%
+  height: 25vw
+  &__projects
+    grid-column: 1/2
+    grid-row: 1/2
+    text-align: center
+  &__first
+    @include circle-size
+    circle
+      @include circle
+  &__gray
+    stroke: $gray
+  &__red
+    stroke: #f34739
+    stroke-dasharray: 150 /* length of arc, circumference of circle */
+    stroke-dashoffset: -50 /* offset of arc from start point (1/2 arc length + 1/4 circumference) */
+  &__number-1
+    @include progress-number
+    color: #f34739
+  &__caption-1
+    @include progress-caption
+  &__clients
+    grid-column: 2/3
+    grid-row: 1/2
+    text-align: center
+  &__second
+    @include circle-size
+    circle
+      @include circle
+  &__green
+    stroke: #009989
+    stroke-dasharray: 100, 150 /* length of arc, circumference of circle */
+    stroke-dashoffset: -50 /* offset of arc from start point (1/2 arc length + 1/4 circumference) */
+  &__number-2
+    @include progress-number
+    color: #009989
+  &__caption-2
+    @include progress-caption
+  &__months
+    grid-column: 3/4
+    grid-row: 1/2
+    text-align: center
+  &__third
+    @include circle-size
+    circle
+      @include circle
+  &__black
+    stroke: #152b3c
+    stroke-dasharray: 200 /* length of arc, circumference of circle */
+    stroke-dashoffset: -50 /* offset of arc from start point (1/2 arc length + 1/4 circumference) */
+  &__number-3
+    @include progress-number
+    color: #152b3c
+  &__caption-3
+    @include progress-caption
+  &__text
+    grid-row: 2/3
+    align-items: center
+    text-align: center
+    font-family: Quicksand
+    font-weight: 400
+    font-size: 1.2vw
+    color: #454545
+    padding: 0 15%

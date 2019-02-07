@@ -1,0 +1,120 @@
+@import "variables"
+
+.team
+  max-width: 100%
+  &__bg
+    background: url("../images/team-image.png")
+    background-size: 100%
+    height: 8.7vw
+    padding: 5% 20%
+    text-align: center
+    margin-bottom: 5%
+  &__table
+    border: 2px solid #f9fdfc
+    padding: 4% 0
+  &__headline-1-1
+    @include bg-headline
+  &__headline-1-1:before
+    @include bg-headline-1
+    width: 10%
+    left: -10px
+    margin-left: -50%
+  &__headline-1-1:after
+    @include bg-headline-1
+    width: 10%
+    left: 10px
+    margin-right: -50%
+  &__headline-2-1
+    color: white
+    font-family: Quicksand
+    font-weight: 700
+    font-size: 4vw
+  &__main
+    display: grid
+    grid-template: repeat(4, 25%) / 50% 50%
+    padding: 0 12%
+    height: 76vw
+    margin: 2% 0
+  &__photo-1
+    grid-column: 1/2
+    grid-row: 1/2
+    max-width: 100%
+    background: url("../images/team-image-1.png")
+    background-size: 100%
+    height: 19vw
+  &__photo-table-1
+    @include team-photo
+    border-left: 2px solid #fff
+    margin: 3% 0 3% 3%
+  &__about-1
+    grid-column: 2/3
+    grid-row: 1/2
+    border-right: 2px solid #000
+    margin: 3% 3% 3% 0
+    @include team-member
+  &__headline-1-2
+    grid-row: 2/3
+    @include team-headline-1
+  &__headline-2-2
+    grid-row: 3/4
+    @include team-headline-2
+  &__headline-3-2
+    grid-row: 5/6
+    @include team-headline-3
+  &__triangle-1
+    @include triangle-left
+  &__about-2
+    grid-column: 1/2
+    grid-row: 2/3
+    border-left: 2px solid #000
+    margin: 3% 0 3% 3%
+    @include team-member
+  &__triangle-2
+    @include triangle-right
+  &__photo-2
+    grid-column: 2/3
+    grid-row: 2/3
+    max-width: 100%
+    background: url("../images/team-image-2.png")
+    background-size: 100%
+    height: 19vw
+  &__photo-table-2
+    @include team-photo
+    border-right: 2px solid #fff
+    margin: 3% 3% 3% 0
+  &__photo-3
+    grid-column: 1/2
+    grid-row: 3/4
+    max-width: 100%
+    background: url("../images/team-image-3.png")
+    background-size: 100%
+    height: 19vw
+  &__photo-table-1
+    @include team-photo
+    border-left: 2px solid #fff
+    margin: 3% 0 3% 3%
+  &__about-3
+    grid-column: 2/3
+    grid-row: 3/4
+    border-right: 2px solid #000
+    margin: 3% 3% 3% 0
+    @include team-member
+  &__about-4
+    grid-column: 1/2
+    grid-row: 4/5
+    border-left: 2px solid #000
+    margin: 3% 0 3% 3%
+    @include team-member
+  &__triangle-2
+    @include triangle-right
+  &__photo-4
+    grid-column: 2/3
+    grid-row: 4/5
+    max-width: 100%
+    background: url("../images/team-image-4.png")
+    background-size: 100%
+    height: 19vw
+  &__photo-table-4
+    @include team-photo
+    border-right: 2px solid #fff
+    margin: 3% 3% 3% 0

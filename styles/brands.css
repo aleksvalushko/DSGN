@@ -1,0 +1,49 @@
+.brands {
+  max-width: 100%; }
+  .brands__bg {
+    background: url("../images/brands-bg.png");
+    height: 8vw;
+    padding: 5% 20%;
+    text-align: center; }
+  .brands__table {
+    border: 2px solid #f9fdfc;
+    padding: 5% 0; }
+  .brands__headline-1 {
+    color: white;
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 1.3vw;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap; }
+  .brands__headline-1:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #b7b0ad;
+    width: 4%;
+    left: -10px;
+    margin-left: -50%; }
+  .brands__headline-1:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #b7b0ad;
+    width: 4%;
+    left: 10px;
+    margin-right: -50%; }
+  .brands__headline-2 {
+    color: white;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 4vw; }
+
+/*# sourceMappingURL=brands.css.map */

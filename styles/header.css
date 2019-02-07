@@ -1,0 +1,126 @@
+.header {
+  max-width: 100%; }
+  .header__navigation {
+    max-width: 100%;
+    height: 4.6875vw;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 10% 63.5% 5% 21.5%;
+    grid-template-rows: 15% 15% 40% 15% 15%;
+    align-content: center;
+    font-family: Quicksand;
+    font-weight: 300;
+    line-height: 3.3vw;
+    background: linear-gradient(90deg, #fff 70%, #000 30%); }
+  .header__logo {
+    grid-column: 1/2;
+    grid-row: 2/5;
+    text-align: center;
+    font-size: 1.8vw;
+    color: #111;
+    border: 1px solid #f34739;
+    border-radius: 15% 0% 15% 15%/30% 0 30% 30%; }
+  .header__social-networks {
+    display: grid;
+    grid-template-columns: 70% 7.5% 7.5% 7.5% 7.5%;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 3/4; }
+  .header__facebook {
+    grid-column: 2/3;
+    cursor: pointer; }
+    .header__facebook img {
+      width: 30%; }
+  .header__instagram {
+    cursor: pointer; }
+    .header__instagram img {
+      width: 45%; }
+  .header__twitter {
+    cursor: pointer; }
+    .header__twitter img {
+      width: 55%; }
+  .header__linkedin {
+    cursor: pointer; }
+    .header__linkedin img {
+      width: 45%; }
+  .header__menu-icon {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image: url("../images/button.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    cursor: pointer; }
+  .header__menu {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    color: #fff;
+    font-size: 1.4vw; }
+  .header__main {
+    background-image: url("../images/header-image.png");
+    display: grid;
+    grid-template-rows: 30% 5% 2.5% 12.5% 10% 10% 15% 10%;
+    justify-content: center;
+    height: 39vw; }
+  .header__headline-1 {
+    grid-row: 2/3;
+    font-family: Dosis;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap; }
+  .header__headline-1:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #b7b0ad;
+    left: -10px;
+    margin-left: -50%; }
+  .header__headline-1:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #b7b0ad;
+    left: 10px;
+    margin-right: -50%; }
+  .header__headline-2 {
+    grid-row: 4/5;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vw;
+    color: #fff; }
+  .header__button {
+    grid-row: 6/7;
+    text-align: center; }
+  .header__btn {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    font-family: Quicksand;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2vw;
+    padding: 2% 7%;
+    cursor: pointer; }
+  .header__anchor {
+    background-image: url("../images/slider.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 8/9;
+    cursor: pointer; }
+
+/*# sourceMappingURL=header.css.map */

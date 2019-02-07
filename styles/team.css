@@ -1,0 +1,109 @@
+.team {
+  max-width: 100%; }
+  .team__image {
+    background: url("../images/team-image.png");
+    height: 9.5vw;
+    padding: 5% 20%;
+    text-align: center;
+    margin-bottom: 5%; }
+  .team__table {
+    border: 2px solid #f9fdfc;
+    padding: 5% 0; }
+  .team__headline-1-1 {
+    color: white;
+    font-family: Quicksand;
+    font-weight: 300;
+    font-size: 1.3vw;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap; }
+  .team__headline-1-1:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #b7b0ad;
+    width: 10%;
+    left: -10px;
+    margin-left: -50%; }
+  .team__headline-1-1:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #b7b0ad;
+    width: 10%;
+    left: 10px;
+    margin-right: -50%; }
+  .team__headline-2-1 {
+    color: white;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 4vw; }
+  .team__main {
+    display: grid;
+    grid-template: 25% 25% 25% 25%/50% 50%;
+    padding: 0 12%; }
+  .team__photo-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 100%;
+    background: url("../images/team-image-1.png");
+    height: 19vw; }
+  .team__photo-table {
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    height: 16.75vw;
+    margin: 3% 0 3% 3%; }
+  .team__about-1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    padding: 5% 20%;
+    margin: 3% 3% 3% 0;
+    height: 13vw; }
+  .team__headline-1-2 {
+    grid-row: 2/3;
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 3vw;
+    color: #111111; }
+  .team__headline-2-2 {
+    grid-row: 3/4;
+    display: inline-block;
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #111111;
+    border-bottom: 2px solid #f34739;
+    padding-bottom: 3%; }
+  .team__headline-3-2 {
+    grid-row: 5/6;
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #454545;
+    padding: 0 10%; }
+  .team__triangle {
+    position: relative;
+    top: 7vw;
+    left: 34.6vw;
+    width: 0;
+    height: 0;
+    border-top: 2vw solid transparent;
+    border-right: 1.8vw solid white;
+    border-bottom: 2vw solid transparent; }
+
+/*# sourceMappingURL=team.css.map */
